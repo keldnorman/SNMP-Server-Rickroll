@@ -1,12 +1,14 @@
 # SNMP-Server-Rickroll
 Rickroll SNMP server
 ```
-Original source code can be found here:  git clone https://github.com/delimitry/snmp-server.git 
+Original source code:  git clone https://github.com/delimitry/snmp-server.git 
 
 # install extra pip modules if missing: 
 
 python2.7 -m pip install colorterm  ( or termcolor ) ?
 python2.7 -m pip install xxxx
+
+or if using python3 just use: pip install xxxxx
  
 # ADD TO CRONTAB:
 
