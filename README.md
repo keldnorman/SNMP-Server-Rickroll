@@ -28,7 +28,11 @@ snmpwalk -c public -v 2c your-ip-here
 ```
 ![test](https://github.com/keldnorman/SNMP-Server-Rickroll/raw/main/run.png)
 
+```
+# Watch out for the possibility to alter your string  ( you must alter the code to stop this or block snmp write in your firewall )
 
+snmpset -v2c -c public localhost .1.3.6.1.2.1 s "Pwned"
 
+```
 
 
